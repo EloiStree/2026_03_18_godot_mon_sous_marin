@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cabky4dv3irxd"]
+
+[ext_resource type="PackedScene" uid="uid://bme81esa2k0f4" path="res://_/team/jurgen_eeck/sousmarin/source/model.gltf" id="1_l4gd0"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ui3kj"]
+
+[node name="Monsoumarin" type="Node3D" unique_id=313513003]
+
+[node name="blockbench_export" parent="." unique_id=771966556 instance=ExtResource("1_l4gd0")]
+transform = Transform3D(4.025, 0, 0, 0, 4.025, 0, 0, 0, 4.025, 0.6078081, 0.34881842, 0.8769516)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1319596638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5542201, -2.1095767)
+mesh = SubResource("BoxMesh_ui3kj")
