@@ -2,23 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clcsycrpemxlo"
-path="res://.godot/imported/yellow_submarine_1.png-952d2969f1323df8bc6443de86963639.ctex"
+uid="uid://ddkknv4wi5frd"
+path.s3tc="res://.godot/imported/yellow_submarine_3.png-b9c4b835c81483976a528ad29dc7c85b.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
-"md5": "0e940e2bfa479bf876fe9907736edca4"
+"md5": "6b7b3c142ed8a90cfc721cf043ae2326"
 }
 
 [deps]
 
-source_file="res://yellow_submarine_1.png"
-dest_files=["res://.godot/imported/yellow_submarine_1.png-952d2969f1323df8bc6443de86963639.ctex"]
+source_file="res://_/team/stree_eloi/yellow_submarine_3.png"
+dest_files=["res://.godot/imported/yellow_submarine_3.png-b9c4b835c81483976a528ad29dc7c85b.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -28,8 +29,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=8
+roughness/src_normal="res://yellow_submarine_2.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2
@@ -40,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bstb5ohnifq1i"
-path="res://.godot/imported/yellow_submarine.glb-93beeba19c12f1f09a58674ed3ef4191.scn"
+path="res://.godot/imported/yellow_submarine.glb-59c385849053f53beb58260fb3872238.scn"
 
 [deps]
 
-source_file="res://yellow_submarine.glb"
-dest_files=["res://.godot/imported/yellow_submarine.glb-93beeba19c12f1f09a58674ed3ef4191.scn"]
+source_file="res://_/team/stree_eloi/yellow_submarine.glb"
+dest_files=["res://.godot/imported/yellow_submarine.glb-59c385849053f53beb58260fb3872238.scn"]
 
 [params]
 
