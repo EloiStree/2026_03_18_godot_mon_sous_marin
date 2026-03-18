@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c430qwuosuq3x"]
 
 [ext_resource type="PackedScene" uid="uid://bstb5ohnifq1i" path="res://_/team/stree_eloi/yellow_submarine.glb" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://cjodo52po0djb" path="res://_/team/dhenau_florentin/subnautica_hydra_submarine.glb" id="2_ehmpd"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4xowi"]
 
@@ -37,3 +38,7 @@ shape = SubResource("WorldBoundaryShape3D_4xowi")
 
 [node name="Sketchfab_Scene" parent="." unique_id=485700084 instance=ExtResource("1_a202f")]
 transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 4.055605)
+visible = false
+
+[node name="Sketchfab_Scene2" parent="." unique_id=120365646 instance=ExtResource("2_ehmpd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.19426727, 0.60218096, 10.449124)
