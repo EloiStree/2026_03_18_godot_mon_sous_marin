@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nfsn78m4sfdy"
-path.s3tc="res://.godot/imported/low_poly_living_room_0.png-8091b69367aaeb2d31cb5fe0856755f3.s3tc.ctex"
+path.etc2="res://.godot/imported/low_poly_living_room_0.png-8091b69367aaeb2d31cb5fe0856755f3.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/nos251/low_poly_living_room_0.png"
-dest_files=["res://.godot/imported/low_poly_living_room_0.png-8091b69367aaeb2d31cb5fe0856755f3.s3tc.ctex"]
+dest_files=["res://.godot/imported/low_poly_living_room_0.png-8091b69367aaeb2d31cb5fe0856755f3.etc2.ctex"]
 
 [params]
 

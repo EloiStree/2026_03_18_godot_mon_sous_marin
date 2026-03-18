@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lm8t70jer5i6"
-path.s3tc="res://.godot/imported/futuristic_transport_shuttle_animated_17.png-bcf2525d2e6731ffcaabcb55d9a3d3e8.s3tc.ctex"
+path.etc2="res://.godot/imported/futuristic_transport_shuttle_animated_17.png-bcf2525d2e6731ffcaabcb55d9a3d3e8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/fremont_richard/futuristic_transport_shuttle_animated_17.png"
-dest_files=["res://.godot/imported/futuristic_transport_shuttle_animated_17.png-bcf2525d2e6731ffcaabcb55d9a3d3e8.s3tc.ctex"]
+dest_files=["res://.godot/imported/futuristic_transport_shuttle_animated_17.png-bcf2525d2e6731ffcaabcb55d9a3d3e8.etc2.ctex"]
 
 [params]
 
