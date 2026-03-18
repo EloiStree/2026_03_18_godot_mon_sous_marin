@@ -12,3 +12,7 @@ transform = Transform3D(4.025, 0, 0, 0, 4.025, 0, 0, 0, 4.025, 0.6078081, 0.3488
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1319596638]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5542201, -2.1095767)
 mesh = SubResource("BoxMesh_ui3kj")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=179656880]
+transform = Transform3D(0.0074099377, -0.009800896, -0.99992454, 0.79767877, 0.6030828, 0, 0.6030375, -0.79761857, 0.012286767, 0, 0.5542201, -2.1095767)
+mesh = SubResource("BoxMesh_ui3kj")
