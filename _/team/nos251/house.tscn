@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bigktu03ykjkt"]
+
+[ext_resource type="PackedScene" uid="uid://c14g88qh2pwkq" path="res://_/team/nos251/low_poly_living_room.glb" id="1_d5v7y"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wjesn"]
+
+[node name="House" type="Node3D" unique_id=2096804993]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1897432223]
+mesh = SubResource("BoxMesh_wjesn")
+
+[node name="Sketchfab_Scene" parent="MeshInstance3D" unique_id=2103002153 instance=ExtResource("1_d5v7y")]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 5.129141, 0, 0)
