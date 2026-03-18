@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cx83ayfq5670d"]
+
+[ext_resource type="PackedScene" uid="uid://bs17tvrbd2mnh" path="res://_/team/Buny_B/space-flyer-x.glb" id="1_0328c"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_scan6"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_764e0"]
+
+[node name="MonSousMarinB" type="Node3D" unique_id=275188638]
+
+[node name="Sketchfab_Scene" parent="." unique_id=469797794 instance=ExtResource("1_0328c")]
+transform = Transform3D(4, 0, 0, 0, 3.6860173, -1.5534728, 0, 1.5534728, 3.6860173, 0, 7.3246236, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1455867042]
+mesh = SubResource("BoxMesh_scan6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1209872373]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=157218880]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.5702076, 0)
+shape = SubResource("WorldBoundaryShape3D_764e0")
