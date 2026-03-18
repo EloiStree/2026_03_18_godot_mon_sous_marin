@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://cksehm61c40du"]
-
-[node name="DemoSousMaring" type="Node3D" unique_id=95277392]
-
-[node name="Node3D" type="Node3D" parent="." unique_id=1849151869]

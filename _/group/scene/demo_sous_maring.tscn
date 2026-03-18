@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dblj7hfm7qrad"]
+
+[ext_resource type="PackedScene" uid="uid://cx83ayfq5670d" path="res://_/team/Buny_B/Mon sous marin B.tscn" id="1_m7oqa"]
+[ext_resource type="PackedScene" uid="uid://b3fewu0i46igw" path="res://_/team/dhenau_florentin/dheflo_submarine.tscn" id="2_46gi0"]
+[ext_resource type="PackedScene" uid="uid://cdhujs0l5o4dx" path="res://_/team/fremont_richard/futuristic_transport_shuttle_animated.glb" id="3_51r81"]
+[ext_resource type="PackedScene" uid="uid://cgyk74w4nglhm" path="res://_/team/gaetan_degand/demo_sousmarin.tscn" id="4_xd02f"]
+[ext_resource type="PackedScene" uid="uid://cabky4dv3irxd" path="res://_/team/jurgen_eeck/monsoumarin.tscn" id="5_sfbwf"]
+[ext_resource type="PackedScene" uid="uid://bigktu03ykjkt" path="res://_/team/nos251/house.tscn" id="6_inyrs"]
+
+[node name="DemoSousMaring" type="Node3D" unique_id=95277392]
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1849151869]
+
+[node name="MonSousMarinB" parent="." unique_id=275188638 instance=ExtResource("1_m7oqa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1805996, -1.1920929e-07, 0.55397034)
+
+[node name="DhefloSubmarine" parent="." unique_id=157378001 instance=ExtResource("2_46gi0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5227013, -1.5702081, -6.7309046)
+
+[node name="Sketchfab_Scene" parent="." unique_id=396702261 instance=ExtResource("3_51r81")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.935512, -0.71645373, 7.004246)
+
+[node name="DemoSousmarin" parent="." unique_id=524789911 instance=ExtResource("4_xd02f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.653497, 0.25630784, 2.3356857)
+
+[node name="Monsoumarin" parent="." unique_id=313513003 instance=ExtResource("5_sfbwf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0109939575, -1.5702081, -1.4538879)
+
+[node name="House" parent="." unique_id=2096804993 instance=ExtResource("6_inyrs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.354509, -1.0702081, -4.616992)

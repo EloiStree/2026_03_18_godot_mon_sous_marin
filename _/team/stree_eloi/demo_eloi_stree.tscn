@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dtx2jsf4xc244"]
+
+[ext_resource type="PackedScene" uid="uid://bstb5ohnifq1i" path="res://_/team/stree_eloi/yellow_submarine.glb" id="1_pky4e"]
+
+[node name="DemoEloiStree" type="Node3D" unique_id=469520492]
+
+[node name="Sketchfab_Scene" parent="." unique_id=1573922411 instance=ExtResource("1_pky4e")]
+transform = Transform3D(0.001, 0, 0, 0, 0.001, 0, 0, 0, 0.001, -0.0014489889, 0, 0.6656084)

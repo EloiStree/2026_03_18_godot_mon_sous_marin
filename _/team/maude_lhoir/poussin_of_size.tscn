@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dp7d0v54mltlr"]
+
+[ext_resource type="PackedScene" uid="uid://cmhvdofamxubr" path="res://_/team/maude_lhoir/poussin.tscn" id="1_0grbb"]
+
+[node name="PoussinOfSize" type="Node3D" unique_id=1795841346]
+
+[node name="Poussin" parent="." unique_id=2052135645 instance=ExtResource("1_0grbb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1874752, 0.005789788, -2.6636248)
+
+[node name="Poussin2" parent="." unique_id=339456319 instance=ExtResource("1_0grbb")]
+transform = Transform3D(0.1357264, 0, 0.40274477, 0, 0.425, 0, -0.40274477, 0, 0.1357264, -3.5852275, 0.005789788, -1.2278948)
+
+[node name="Poussin3" parent="." unique_id=1935089521 instance=ExtResource("1_0grbb")]
+transform = Transform3D(-0.10761787, 0, 0.040538818, 0, 0.115, 0, -0.040538818, 0, -0.10761787, -1.1400485, 0.005789788, 1.0220137)
+
+[node name="Poussin4" parent="." unique_id=472042112 instance=ExtResource("1_0grbb")]
+transform = Transform3D(-0.018852342, 0, -0.029488796, 0, 0.035, 0, 0.029488796, 0, -0.018852342, 2.2552853, 0.005790265, 0.8264427)

@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://gdd4gbfhg6rw"]
+
+[ext_resource type="PackedScene" uid="uid://cx83ayfq5670d" path="res://_/team/Buny_B/Mon sous marin B.tscn" id="1_oab0u"]
+[ext_resource type="PackedScene" uid="uid://b3fewu0i46igw" path="res://_/team/dhenau_florentin/dheflo_submarine.tscn" id="2_qihhm"]
+[ext_resource type="PackedScene" uid="uid://5ku1078kgigg" path="res://_/team/fremont_richard/monsousmarin.tscn" id="3_qtc7q"]
+[ext_resource type="PackedScene" uid="uid://cgyk74w4nglhm" path="res://_/team/gaetan_degand/demo_sousmarin.tscn" id="4_elsw1"]
+[ext_resource type="PackedScene" uid="uid://cabky4dv3irxd" path="res://_/team/jurgen_eeck/monsoumarin.tscn" id="5_680bk"]
+[ext_resource type="PackedScene" uid="uid://bigktu03ykjkt" path="res://_/team/nos251/house.tscn" id="6_nd872"]
+[ext_resource type="PackedScene" uid="uid://dp7d0v54mltlr" path="res://_/team/maude_lhoir/poussin_of_size.tscn" id="7_3sbt2"]
+
+[node name="DemoSousMaring" type="Node3D" unique_id=95277392]
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1849151869]
+
+[node name="MonSousMarinB" parent="." unique_id=275188638 instance=ExtResource("1_oab0u")]
+
+[node name="DhefloSubmarine" parent="." unique_id=157378001 instance=ExtResource("2_qihhm")]
+
+[node name="Monsousmarin" parent="." unique_id=1941535555 instance=ExtResource("3_qtc7q")]
+
+[node name="DemoSousmarin" parent="." unique_id=524789911 instance=ExtResource("4_elsw1")]
+
+[node name="Monsoumarin" parent="." unique_id=313513003 instance=ExtResource("5_680bk")]
+
+[node name="House" parent="." unique_id=2096804993 instance=ExtResource("6_nd872")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.028466)
+
+[node name="PoussinOfSize" parent="." unique_id=1795841346 instance=ExtResource("7_3sbt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.840247)
