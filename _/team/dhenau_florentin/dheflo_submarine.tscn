@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://b3fewu0i46igw"]
+
+[ext_resource type="PackedScene" uid="uid://cjodo52po0djb" path="res://_/team/dhenau_florentin/subnautica_hydra_submarine.glb" id="1_cplyj"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ropr2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cplyj"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_ropr2"]
+
+[node name="DhefloSubmarine" type="Node3D" unique_id=157378001]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=943680620]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.7114258)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1943000628]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.29309, 0)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1426705382]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.935791, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=1558243849]
+mesh = SubResource("BoxMesh_ropr2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1191675331]
+shape = SubResource("BoxShape3D_cplyj")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1098745128]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=434415179]
+shape = SubResource("WorldBoundaryShape3D_ropr2")
+
+[node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=120365646 instance=ExtResource("1_cplyj")]
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, 1.3491898, 6.597641, -5.1741705)
