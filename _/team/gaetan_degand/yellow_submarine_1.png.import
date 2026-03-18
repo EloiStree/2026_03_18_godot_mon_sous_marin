@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp3drq606qqna"
-path.s3tc="res://.godot/imported/yellow_submarine_1.png-f09916f6572dc8c4f1c22fa63f3cca36.s3tc.ctex"
+path.etc2="res://.godot/imported/yellow_submarine_1.png-f09916f6572dc8c4f1c22fa63f3cca36.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/gaetan_degand/yellow_submarine_1.png"
-dest_files=["res://.godot/imported/yellow_submarine_1.png-f09916f6572dc8c4f1c22fa63f3cca36.s3tc.ctex"]
+dest_files=["res://.godot/imported/yellow_submarine_1.png-f09916f6572dc8c4f1c22fa63f3cca36.etc2.ctex"]
 
 [params]
 

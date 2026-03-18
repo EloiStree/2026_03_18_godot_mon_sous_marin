@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8o4n2bbvsw5q"
-path.s3tc="res://.godot/imported/yellow_submarine_2.png-69aed5fcf48a9319bb59d4e850d39232.s3tc.ctex"
+path.etc2="res://.godot/imported/yellow_submarine_2.png-69aed5fcf48a9319bb59d4e850d39232.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/stree_eloi/yellow_submarine_2.png"
-dest_files=["res://.godot/imported/yellow_submarine_2.png-69aed5fcf48a9319bb59d4e850d39232.s3tc.ctex"]
+dest_files=["res://.godot/imported/yellow_submarine_2.png-69aed5fcf48a9319bb59d4e850d39232.etc2.ctex"]
 
 [params]
 

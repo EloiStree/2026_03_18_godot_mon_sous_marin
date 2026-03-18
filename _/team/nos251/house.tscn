@@ -4,6 +4,8 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_wjesn"]
 
+[sub_resource type="BoxMesh" id="BoxMesh_d5v7y"]
+
 [node name="House" type="Node3D" unique_id=2096804993]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1897432223]
@@ -11,3 +13,7 @@ mesh = SubResource("BoxMesh_wjesn")
 
 [node name="Sketchfab_Scene" parent="MeshInstance3D" unique_id=2103002153 instance=ExtResource("1_d5v7y")]
 transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 5.129141, 0, 0)
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=30406554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.705204)
+mesh = SubResource("BoxMesh_d5v7y")
