@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://5ku1078kgigg"]
+
+[ext_resource type="PackedScene" uid="uid://cdhujs0l5o4dx" path="res://_/team/fremont_richard/futuristic_transport_shuttle_animated.glb" id="1_1tklx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_qjmgf"]
+
+[node name="Monsousmarin" type="Node3D" unique_id=1941535555]
+
+[node name="Sketchfab_Scene" parent="." unique_id=520251337 instance=ExtResource("1_1tklx")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.1538986, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1334831654]
+transform = Transform3D(0.21, 0, 0, 0, 0.21, 0, 0, 0, 0.21, -2.3148518, 0, 0)
+visible = false
+mesh = SubResource("BoxMesh_qjmgf")
