@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br2m3mvjko457"
+uid="uid://c1bdt8btgkj3v"
 path.etc2="res://.godot/imported/space-flyer-x_0.png-e185fcd0a119ab683cda7244ee50dfd9.etc2.ctex"
 metadata={
 "imported_formats": ["etc2_astc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "11101a24c01c9b8a2dcdc11d2948d0f3"
 }
 
 [deps]
