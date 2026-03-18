@@ -3,16 +3,16 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcrgqukf0xi1v"
-path.s3tc="res://.godot/imported/T_Poussin_D.png-379b07c9534030161ef9861199474b4b.s3tc.ctex"
+path.etc2="res://.godot/imported/T_Poussin_D.png-379b07c9534030161ef9861199474b4b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://_/team/maude_lhoir/T_Poussin_D.png"
-dest_files=["res://.godot/imported/T_Poussin_D.png-379b07c9534030161ef9861199474b4b.s3tc.ctex"]
+dest_files=["res://.godot/imported/T_Poussin_D.png-379b07c9534030161ef9861199474b4b.etc2.ctex"]
 
 [params]
 

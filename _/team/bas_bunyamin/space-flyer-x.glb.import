@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bs17tvrbd2mnh"
-path="res://.godot/imported/space-flyer-x.glb-9e8d0ba3719faae3f9f0cf5ffc3f7580.scn"
+path="res://.godot/imported/space-flyer-x.glb-2b3aec06ce5e1001ee4d488c187f59b4.scn"
 
 [deps]
 
-source_file="res://_/team/Buny_B/space-flyer-x.glb"
-dest_files=["res://.godot/imported/space-flyer-x.glb-9e8d0ba3719faae3f9f0cf5ffc3f7580.scn"]
+source_file="res://_/team/bas_bunyamin/space-flyer-x.glb"
+dest_files=["res://.godot/imported/space-flyer-x.glb-2b3aec06ce5e1001ee4d488c187f59b4.scn"]
 
 [params]
 

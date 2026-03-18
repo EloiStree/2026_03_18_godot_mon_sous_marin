@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dblj7hfm7qrad"]
 
-[ext_resource type="PackedScene" uid="uid://cx83ayfq5670d" path="res://_/team/Buny_B/Mon sous marin B.tscn" id="1_m7oqa"]
+[ext_resource type="PackedScene" uid="uid://cx83ayfq5670d" path="res://_/team/bas_bunyamin/Mon sous marin B.tscn" id="1_m7oqa"]
 [ext_resource type="PackedScene" uid="uid://b3fewu0i46igw" path="res://_/team/dhenau_florentin/dheflo_submarine.tscn" id="2_46gi0"]
 [ext_resource type="PackedScene" uid="uid://cdhujs0l5o4dx" path="res://_/team/fremont_richard/futuristic_transport_shuttle_animated.glb" id="3_51r81"]
 [ext_resource type="PackedScene" uid="uid://cgyk74w4nglhm" path="res://_/team/gaetan_degand/demo_sousmarin.tscn" id="4_xd02f"]
