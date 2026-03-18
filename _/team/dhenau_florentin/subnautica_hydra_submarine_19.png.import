@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buna4apljwfex"
-path.s3tc="res://.godot/imported/subnautica_hydra_submarine_19.png-00007ce82a3565ae044558c3e0f8ba2e.s3tc.ctex"
+path.etc2="res://.godot/imported/subnautica_hydra_submarine_19.png-00007ce82a3565ae044558c3e0f8ba2e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/dhenau_florentin/subnautica_hydra_submarine_19.png"
-dest_files=["res://.godot/imported/subnautica_hydra_submarine_19.png-00007ce82a3565ae044558c3e0f8ba2e.s3tc.ctex"]
+dest_files=["res://.godot/imported/subnautica_hydra_submarine_19.png-00007ce82a3565ae044558c3e0f8ba2e.etc2.ctex"]
 
 [params]
 

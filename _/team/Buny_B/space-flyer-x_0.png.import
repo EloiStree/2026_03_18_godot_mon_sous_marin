@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br2m3mvjko457"
-path.s3tc="res://.godot/imported/space-flyer-x_0.png-37e8cc8b98953962904d98ab4667929d.s3tc.ctex"
+path.etc2="res://.godot/imported/space-flyer-x_0.png-37e8cc8b98953962904d98ab4667929d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/Buny_B/space-flyer-x_0.png"
-dest_files=["res://.godot/imported/space-flyer-x_0.png-37e8cc8b98953962904d98ab4667929d.s3tc.ctex"]
+dest_files=["res://.godot/imported/space-flyer-x_0.png-37e8cc8b98953962904d98ab4667929d.etc2.ctex"]
 
 [params]
 

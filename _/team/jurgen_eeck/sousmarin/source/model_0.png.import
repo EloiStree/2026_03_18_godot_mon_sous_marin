@@ -3,9 +3,9 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csvj7yc6yhpgp"
-path.s3tc="res://.godot/imported/model_0.png-dbdc53db24b374f7d3c2f779f51675c8.s3tc.ctex"
+path.etc2="res://.godot/imported/model_0.png-dbdc53db24b374f7d3c2f779f51675c8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +15,7 @@ generator_parameters={
 [deps]
 
 source_file="res://_/team/jurgen_eeck/sousmarin/source/model_0.png"
-dest_files=["res://.godot/imported/model_0.png-dbdc53db24b374f7d3c2f779f51675c8.s3tc.ctex"]
+dest_files=["res://.godot/imported/model_0.png-dbdc53db24b374f7d3c2f779f51675c8.etc2.ctex"]
 
 [params]
 
