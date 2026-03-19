@@ -3,4 +3,6 @@
 > Group repository to train on setup Git on Android and Quest3 with Termux.
 
 
-See: https://github.com/EloiStree/HelloOneDayGodotXR
+See: 
+- https://github.com/EloiStree/HelloOneDayGodotXR
+- https://github.com/EloiStree/HelloOneDayGodotXR/blob/main/WorkshopOpenBrush.md
